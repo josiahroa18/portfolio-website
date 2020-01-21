@@ -93,6 +93,8 @@
 
 			}
 
+	// STRETCH GOAL: Removed this section so that I could link to github repos instead of opening a gallery
+
 	// Main Sections: Two.
 		// Lightbox gallery.
 			// $window.on('load', function() {
@@ -114,3 +116,9 @@
 			// });
 
 })(jQuery);
+
+var submit = document.getElementById('submit');
+submit.onclick = function(){
+	alert("Contact form submitted!")
+}
+
